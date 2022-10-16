@@ -31,10 +31,36 @@ a {
     width: 60vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .para {
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+
+header {
+    font-weight: 700;
     font-size: 1.3rem;
 }
+
+.form {
+    margin-top: 16px;
+    box-shadow: 1px 1px #aaaaaa ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr, 1fr);
+    padding: 4px;
+}
+
+label {
+    font-size: 0.7rem;
+}
+
+input {
+    display: block;
+    border: solid black 2px;
+    border-radius: 4px;
+}
+
