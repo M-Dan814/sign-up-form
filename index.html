@@ -1,31 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Sign-up Form</title>
-</head>
-<body>
-    <div class="sidebar">
+  </head>
+  <body>
+    <main>
+      <div class="sidebar">
         <div class="logo"></div>
-    </div>
-    <div class="main-content">
-        <div class="para"></div>
+        <div class="img-footer">
+            <em>
+          Photo by
+          <a
+            href="https://unsplash.com/@manosk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >manos koutras</a
+          >
+          on
+          <a
+            href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
+            </em>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="para">
+          This is NOT a real online service! Ready to make a life-changing
+          decision? Sign up now! <br /><br />
+          You <em>know</em> you want to. <br /><br />
+        </div>
         <form action="post">
-            <label for="fname">FIRST NAME</label>
-            <input type="text" id="fname" name="first_name">
-            <label for="lname">LAST NAME</label>
-            <input type="text" id="lname" name="last_name">
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email">
-            <label for="phone">PHONE NUMBER</label>
-            <input type="text" id="phone" name="Phone_Number">
-            <label for="pword">PASSWORD</label>
-            <input type="password" name="password" id="pword">
-            <label for="confirm_pword">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm_pword" id="confirm_pword">
+          <header>Let's get started!</header>
+          <label for="fname">FIRST NAME</label>
+          <input type="text" id="fname" name="first_name" />
+          <label for="lname">LAST NAME</label>
+          <input type="text" id="lname" name="last_name" />
+          <label for="email">EMAIL</label>
+          <input type="email" name="email" id="email" />
+          <label for="phone">PHONE NUMBER</label>
+          <input type="text" id="phone" name="Phone_Number" />
+          <label for="pword">PASSWORD</label>
+          <input type="password" name="password" id="pword" />
+          <label for="confirm_pword">CONFIRM PASSWORD</label>
+          <input type="password" name="confirm_pword" id="confirm_pword" />
         </form>
-    </div>
-</body>
+      </div>
+    </main>
+  </body>
 </html>

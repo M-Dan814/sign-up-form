@@ -1,0 +1,40 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1665772504993-36dc4f952358?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=749&q=80);   
+}
+
+.img-footer {
+    position: absolute;
+    bottom: 2%;
+    left: 20%;
+    color: white;
+    font-size: 0.9rem;
+}
+
+a {
+    color: white
+}
+
+.main-content {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.para {
+    font-weight: 900;
+    font-size: 1.3rem;
+}
