@@ -39,33 +39,42 @@
           You <em>know</em> you want to. <br /><br />
         </div>
         <header>Let's get started!</header>
-        <form class="form" action="post">
-          <label for="fname"
-            >FIRST NAME
-            <input type="text" id="fname" name="first_name" />
-          </label>
-          <label for="lname"
-            >LAST NAME
-            <input type="text" id="lname" name="last_name" />
-          </label>
-          <label for="email"
-            >EMAIL
-            <input type="email" name="email" id="email" />
-          </label>
-          <label for="phone"
-            >PHONE NUMBER
-            <input type="text" id="phone" name="Phone_Number" />
-          </label>
-          <label for="pword"
-            >PASSWORD
-            <input type="password" name="password" id="pword" />
-          </label>
-          <label for="confirm_pword"
-            >CONFIRM PASSWORD
-            <input type="password" name="confirm_pword" id="confirm_pword" />
-          </label>
+        <form class="form" action="">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname"
+              >FIRST NAME
+              <input type="text" id="fname" name="first_name" required/>
+            </label>
+            <label for="lname"
+              >LAST NAME
+              <input type="text" id="lname" name="last_name" required/>
+            </label>
+            <label for="email"
+              >EMAIL
+              <input type="email" name="email" id="email" required/>
+            </label>
+            <label for="phone"
+              >PHONE NUMBER (optional)
+              <input type="tel" id="phone" name="Phone_Number" />
+            </label>
+            <label class="error" for="pword"
+              >PASSWORD
+              <input type="password" name="password" id="pword" required/>
+            </label>
+            <label class="error" for="confirm_pword"
+              >CONFIRM PASSWORD
+              <input  type="password" id="confirm_pword" required/>
+            </label>
+          </fieldset>
+          <button type="submit" id="sign-up">Create Account</button>
         </form>
+
+        <div class="main-footer">
+          Already have an account? <a id="log-in" href="#">Log In</a>
+        </div>
       </div>
     </main>
+    <script src="/script.js"></script>
   </body>
 </html>
